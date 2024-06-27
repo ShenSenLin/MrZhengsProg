@@ -21,9 +21,9 @@ class Unit:
         pass
 
 
-class Soilder(Unit):  # 士兵
+class Solider(Unit):  # 士兵
     def __init__(self):
-        pass
+        super().__init__()
 
     # 攻击 - 攻击指定地点
     def attack(self):
@@ -36,14 +36,14 @@ class Soilder(Unit):  # 士兵
 
 class Citizen(Unit):  # 市民
     def __init__(self):
-        pass
+        super().__init__()
 
 
 class Slaves(Unit):  # 奴隶
     def __init__(self):
-        pass
+        super().__init__()
 
 
 class Leader(Unit):
     def __init__(self):
-        pass
+        super().__init__()
