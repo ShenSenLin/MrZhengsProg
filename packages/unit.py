@@ -8,6 +8,12 @@
 """
 
 
+# 所有单位可能有的名字
+class UnitNames:
+    def __init__(self):
+        pass
+
+
 # 单位类
 # 是所有可以移动的单位类的父类
 class Unit:
