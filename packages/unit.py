@@ -3,7 +3,6 @@
     【士兵类】
     【市民类】
     【奴隶类】
-    【领导者类】
 主要描述游戏中可以移动的各单位
 """
 
@@ -46,10 +45,5 @@ class Citizen(Unit):  # 市民
 
 
 class Slaves(Unit):  # 奴隶
-    def __init__(self):
-        super().__init__()
-
-
-class Leader(Unit):
     def __init__(self):
         super().__init__()
